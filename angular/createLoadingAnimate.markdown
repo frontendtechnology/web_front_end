@@ -9,7 +9,6 @@
 #### 根组件标签中的内容
 
 请注意，在你的入口文件index.html中，默认的`loading...`只是插入到根组件标签之间：
-
 ```
 <!doctype html>
 <html>
@@ -26,7 +25,6 @@
 
 </body>
 </html>
-
 ```
 
 如果您在加载完根组件检查应用程序，则无法找到`loading...` 的文字，因为它在应用加载完成后被我们自己定义的组件替换掉。
@@ -49,8 +47,7 @@
 
 现在你可以在那里随意的做任何事情。使用`css`或者`svg`实现自定义加载动画。
 
-在我们的示例中，我们给页面一个粉红色的背景，我们使用`Flexbox` 将loaidng设置居中，给它设置一个更漂亮的字体，我们甚至在省略号上添加一个自定义动画：
-
+在我们的示例中，我们给页面一个粉红色的背景，我们使用`Flexbox` 将loading设置居中，给它设置一个更漂亮的字体，我们甚至在省略号上添加一个自定义动画：
 ```
 <app-root>
   <style>
@@ -102,8 +99,8 @@
 
   Loading<span class="d">.</span><span class="d d-2">.</span><span class="d d-3">.</span>
 </app-root>
-
 ```
+这样我们就实现了上图的加载效果了，[点击这里查看原文](https://alligator.io/angular/custom-loading-screen/)
 
 分享几个loading效果的在线素材网：
 
@@ -113,5 +110,4 @@
 
 好了，去创建属于你自己的loading吧!
 
-这样我们就实现了上图的加载效果了，[点击这里查看原文](https://alligator.io/angular/custom-loading-screen/)
 
