@@ -3,3 +3,4 @@
 
 ## js入门
 	- [JavaScript DOM 编程艺术](http://down.51cto.com/search.php?q=JavaScript+dom%E7%BC%96%E7%A8%8B%E7%9A%84%E8%89%BA%E6%9C%AF)
+	- [谈谈JavaScript的词法环境和闭包](https://segmentfault.com/a/1190000006719728#articleHeader0)
